@@ -1,0 +1,88 @@
+    /*
+        Setup for a max-width of 550px 
+    */
+
+@media screen and (max-width: 550px) {
+
+#breadcrumb {
+    width: 100%;
+    }
+   
+#restaurants-list {
+    float: left;
+    }
+
+.inside header {
+    position: relative;
+    }
+
+.inside #map-container {
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    }
+
+.inside #map {
+    height: 400px;
+    width: 100%;
+    }
+.inside #restaurant-container, #reviews-container {
+    width: 100%;
+    padding-top: 15px;
+    }
+
+.inside #reviews-container {
+    padding-bottom: 15px;
+    }
+.inside #footer {
+    width: 100%;
+    }
+}
+    /*
+        Setup for a max-width of 788px 
+    */
+
+
+@media screen and (max-width: 788px) {
+    
+.container {
+    padding: 10px;
+    }
+    
+#restaurants-list {
+    padding: 30px 0px 60px;
+    width: 100%;
+    }
+    
+#restaurants-list li {
+    margin: 15px auto;
+    width: 80%;
+    float: none;
+    }
+}
+    /*
+        Setup for a range between 789px and 1139px 
+    */
+
+@media screen and (min-width: 789px) and (max-width: 1139px) {
+
+#restaurants-list {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+    /*
+        Setup for 1140px and above
+    */
+
+@media screen and (min-width: 1140px) {
+
+#restaurants-list {
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+
